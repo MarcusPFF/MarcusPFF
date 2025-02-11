@@ -11,8 +11,8 @@
 ![](https://github-readme-stats.vercel.app/api?username=MarcusPFF&theme=onedark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 
 <img src="https://raw.githubusercontent.com/MarcusPFF/MarcusPFF/output/snake.svg" alt="Snake animation" />
-###
+
 <div align="center">
   <img src="https://profile-counter.glitch.me/MarcusPFF/count.svg?"  />
 </div>
-###
+
