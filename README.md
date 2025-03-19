@@ -1,4 +1,3 @@
-## Whats up brother🤓☝️
 🌱 I’m currently learning how to make a million nested if-statements<br>
 
 ## 🌐 Socials:
