@@ -1,10 +1,14 @@
-🌱 I’m currently learning how to make a million nested if-statements<br>
+```ts
+const marcus = {
+  location: "Denmark",
+  portfolio: "https://marcuspff.com/",
+}
+```
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/marcus.pff) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/marcus-forsberg-a09a68334) 
+#### find me
 
-## 📊 De vilde stats:
-![](https://github-readme-stats.vercel.app/api?username=MarcusPFF&theme=onedark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/marcus.pff)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/marcus-forsberg-a09a68334)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarcusPFF/MarcusPFF/output/github-snake-dark.svg" />
