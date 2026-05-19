@@ -1,12 +1,12 @@
 ```ts
 const marcus = {
   location: "Denmark",
-  portfolio: "https://marcuspff.com/",
 }
 ```
 
-#### find me
+###### find me
 
+[![Portfolio](https://img.shields.io/badge/-Portfolio-9333EA?style=flat-square&logo=Web&logoColor=white)](https://marcuspff.com/)
 [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/marcus.pff)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/marcus-forsberg-a09a68334)
 
