@@ -1,5 +1,5 @@
 // Builds the animated intro at the top of the profile README.
-// The workflow reruns it on a schedule so the time and status follow Danish time.
+// The workflow reruns it on a schedule so the time follows Danish time.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const outDir = process.argv[2] ?? "dist";
@@ -8,16 +8,6 @@ const THEMES = {
   light: { file: "intro.svg", bg: "#f6f8fa", text: "#1f2328", keyword: "#cf222e", name: "#0550ae", string: "#0a3069", comment: "#59636e", cursor: "#9333ea" },
   dark: { file: "intro-dark.svg", bg: "#151b23", text: "#f0f6fc", keyword: "#ff7b72", name: "#79c0ff", string: "#a5d6ff", comment: "#9198a1", cursor: "#a855f7" },
 };
-
-// [from hour, status], Danish time
-const STATUSES = [
-  [0, "probably asleep"],
-  [7, "waking up"],
-  [9, "writing code"],
-  [17, "eating dinner"],
-  [19, "probably still coding"],
-  [23, "probably asleep"],
-];
 
 const WIDTH = 880;
 const PAD = 16;
@@ -39,13 +29,12 @@ const now = Object.fromEntries(
     .map(({ type, value }) => [type, value]),
 );
 const zone = now.timeZoneName === "GMT+2" ? "CEST" : "CET";
-const status = STATUSES.findLast(([hour]) => Number(now.hour) >= hour)[1];
 
 const lines = [
   [["const", "keyword"], [" "], ["marcus", "name"], [" "], ["=", "keyword"], [" {"]],
   [["  location: "], ['"Denmark"', "string"], [","]],
+  [["  site: "], ['"marcuspff.com"', "string"], [","]],
   [["  localTime: "], [`"${now.hour}:${now.minute} ${zone}"`, "string"], [","]],
-  [["  status: "], [`"${status}"`, "string"], [","]],
   [["}"]],
 ];
 
@@ -102,7 +91,7 @@ const render = (theme, rows) => {
     );
   });
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${height}" viewBox="0 0 ${WIDTH} ${height}" xml:space="preserve" role="img" aria-label="const marcus = { location: Denmark, localTime: ${now.hour}:${now.minute} ${zone}, status: ${status} }">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${height}" viewBox="0 0 ${WIDTH} ${height}" xml:space="preserve" role="img" aria-label="const marcus = { location: Denmark, site: marcuspff.com, localTime: ${now.hour}:${now.minute} ${zone} }">
 <style>
 text { font: 14px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
 .text { fill: ${theme.text}; } .keyword { fill: ${theme.keyword}; } .name { fill: ${theme.name}; }
