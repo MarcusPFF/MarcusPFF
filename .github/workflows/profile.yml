@@ -1,9 +1,10 @@
-name: GitHub Snake Game
+name: Update Profile
 
 on:
-  # Schedule the workflow to run daily at midnight UTC
+  # Every 15 minutes so the intro's time and status stay current
+  # (offset from the top of the hour, when scheduled runs queue up the most)
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "7,22,37,52 * * * *"
   # Allow manual triggering of the workflow
   workflow_dispatch:
   # Trigger the workflow on pushes to the main branch
@@ -32,11 +33,15 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#9333ea
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate Live Intro
+        run: node .github/scripts/intro.mjs dist
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          # Keep a single commit on the branch instead of 96 new ones a day
+          force_orphan: true
           # Optionally, you can set a custom commit message
-          commit_message: "Update snake animation [skip ci]"
+          commit_message: "Update profile images [skip ci]"

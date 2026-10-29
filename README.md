@@ -1,8 +1,8 @@
-```ts
-const marcus = {
-  location: "Denmark",
-}
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MarcusPFF/MarcusPFF/output/intro-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MarcusPFF/MarcusPFF/output/intro.svg" />
+  <img alt="const marcus = { location: 'Denmark' }" src="https://raw.githubusercontent.com/MarcusPFF/MarcusPFF/output/intro-dark.svg" />
+</picture>
 
 ###### find me
 
