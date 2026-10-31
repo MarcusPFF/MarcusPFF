@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="137" viewBox="0 0 880 137" xml:space="preserve" role="img" aria-label="const marcus = { location: Denmark, site: marcuspff.com, localTime: 20:20 CET }">
+<style>
+text { font: 14px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+.text { fill: #f0f6fc; } .keyword { fill: #ff7b72; } .name { fill: #79c0ff; }
+.string { fill: #a5d6ff; } .comment { fill: #9198a1; } .cursor { fill: #a855f7; }
+</style>
+<rect width="880" height="137" rx="6" fill="#151b23"/>
+<clipPath id="l0"><rect x="16" y="16" width="0" height="21"><animate attributeName="width" values="0;8.4;16.8;25.2;33.6;42;50.4;58.8;67.2;75.6;84;92.4;100.8;109.2;117.6;126;134.4" calcMode="discrete" begin="700ms" dur="720ms" fill="freeze"/></rect></clipPath>
+<text x="16" y="31" textLength="134.4" lengthAdjust="spacing" clip-path="url(#l0)"><tspan class="keyword">const</tspan><tspan class="text"> </tspan><tspan class="name">marcus</tspan><tspan class="text"> </tspan><tspan class="keyword">=</tspan><tspan class="text"> {</tspan></text>
+<rect class="cursor" x="16" y="18" width="2" height="17" opacity="1"><animate attributeName="x" values="16;24.4;32.8;41.2;49.6;58;66.4;74.8;83.2;91.6;100;108.4;116.8;125.2;133.6;142;150.4" calcMode="discrete" begin="700ms" dur="720ms" fill="freeze"/><animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" repeatCount="indefinite" end="700ms"/><set attributeName="opacity" to="0" begin="1670ms"/></rect>
+<clipPath id="l1"><rect x="32.8" y="37" width="0" height="21"><animate attributeName="width" values="0;8.4;16.8;25.2;33.6;42;50.4;58.8;67.2;75.6;84;92.4;100.8;109.2;117.6;126;134.4;142.8;151.2;159.6;168" calcMode="discrete" begin="1670ms" dur="900ms" fill="freeze"/></rect></clipPath>
+<text x="32.8" y="52" textLength="168.0" lengthAdjust="spacing" clip-path="url(#l1)"><tspan class="text">location: </tspan><tspan class="string">"Denmark"</tspan><tspan class="text">,</tspan></text>
+<rect class="cursor" x="32.8" y="39" width="2" height="17" opacity="0"><animate attributeName="x" values="32.8;41.2;49.6;58;66.4;74.8;83.2;91.6;100;108.4;116.8;125.2;133.6;142;150.4;158.8;167.2;175.6;184;192.4;200.8" calcMode="discrete" begin="1670ms" dur="900ms" fill="freeze"/><set attributeName="opacity" to="1" begin="1670ms" end="2820ms"/></rect>
+<clipPath id="l2"><rect x="32.8" y="58" width="0" height="21"><animate attributeName="width" values="0;8.4;16.8;25.2;33.6;42;50.4;58.8;67.2;75.6;84;92.4;100.8;109.2;117.6;126;134.4;142.8;151.2;159.6;168;176.4;184.8" calcMode="discrete" begin="2820ms" dur="990ms" fill="freeze"/></rect></clipPath>
+<text x="32.8" y="73" textLength="184.8" lengthAdjust="spacing" clip-path="url(#l2)"><tspan class="text">site: </tspan><tspan class="string">"marcuspff.com"</tspan><tspan class="text">,</tspan></text>
+<rect class="cursor" x="32.8" y="60" width="2" height="17" opacity="0"><animate attributeName="x" values="32.8;41.2;49.6;58;66.4;74.8;83.2;91.6;100;108.4;116.8;125.2;133.6;142;150.4;158.8;167.2;175.6;184;192.4;200.8;209.2;217.6" calcMode="discrete" begin="2820ms" dur="990ms" fill="freeze"/><set attributeName="opacity" to="1" begin="2820ms" end="4060ms"/></rect>
+<clipPath id="l3"><rect x="32.8" y="79" width="0" height="21"><animate attributeName="width" values="0;8.4;16.8;25.2;33.6;42;50.4;58.8;67.2;75.6;84;92.4;100.8;109.2;117.6;126;134.4;142.8;151.2;159.6;168;176.4;184.8;193.2" calcMode="discrete" begin="4060ms" dur="1035ms" fill="freeze"/></rect></clipPath>
+<text x="32.8" y="94" textLength="193.2" lengthAdjust="spacing" clip-path="url(#l3)"><tspan class="text">localTime: </tspan><tspan class="string">"20:20 CET"</tspan><tspan class="text">,</tspan></text>
+<rect class="cursor" x="32.8" y="81" width="2" height="17" opacity="0"><animate attributeName="x" values="32.8;41.2;49.6;58;66.4;74.8;83.2;91.6;100;108.4;116.8;125.2;133.6;142;150.4;158.8;167.2;175.6;184;192.4;200.8;209.2;217.6;226" calcMode="discrete" begin="4060ms" dur="1035ms" fill="freeze"/><set attributeName="opacity" to="1" begin="4060ms" end="5345ms"/></rect>
+<clipPath id="l4"><rect x="16" y="100" width="0" height="21"><animate attributeName="width" values="0;8.4" calcMode="discrete" begin="5345ms" dur="45ms" fill="freeze"/></rect></clipPath>
+<text x="16" y="115" textLength="8.4" lengthAdjust="spacing" clip-path="url(#l4)"><tspan class="text">}</tspan></text>
+<rect class="cursor" x="16" y="102" width="2" height="17" opacity="0"><animate attributeName="x" values="16;24.4" calcMode="discrete" begin="5345ms" dur="45ms" fill="freeze"/><set attributeName="opacity" to="1" begin="5345ms"/><animate attributeName="opacity" values="1;0" calcMode="discrete" dur="1s" repeatCount="indefinite" begin="5390ms"/></rect>
+</svg>
